@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+   <html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      <link rel="stylesheet" href="./styles.css">
+      <title>Form</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <main class="main">
+            <div class="container">
+               <div class="forms">
+                  <div class="forms__signin signin-forms block">
+                     <div class="block__title">Login</div>
+                     <form action="#" class="block-form">
+                        <div class="block-form__filed block-form__filed_email">
+                           <input type="email" class="block-form__input" placeholder="Enter your email" name="email" required>
+                           <div class="block-form__icon block-form__icon_left uil uil-envelope"></div>
+                        </div>
+                        <div class="block-form__filed block-form__filed_password">
+                           <input type="password" class="block-form__input" placeholder="Enter your pasword" name="password" required>
+                           <div class="block-form__icon block-form__icon_left uil uil-lock"></div>
+                           <button class="block-form__password-button">
+                              <div class="block-form__icon block-form__icon_center block-form__icon_open uil uil-eye"></div> 
+                              <div class="block-form__icon block-form__icon_center block-form__icon_close uil uil-eye-slash"></div> 
+                           </button>
+                        </div>
+                        <div class="block-form__dialog dialog-block-form">
+                           <div class="dialog-block-form__remember">
+                              <div class="dialog-block-form__toggle">
+                                 <input type="checkbox" class="dialog-block-form__checkbox">
+                              </div>
+                              <div class="dialog-block-form__text">Remember me</div>
+                           </div>
+                           <a href="#" class="dialog-block-form__forgote link">Forgote password?</a>
+                        </div>
+                        <input type="submit" class="block-form__submit" value="Login now">
+                     </form>
+                     <div class="block__footer footer-block">
+                        <div class="footer-block__text">Not a member?</div>
+                        <div class="footer-block__link link">Singup now</div>
+                     </div>
+                  </div>
+                  <div class="forms__signup signup-forms block">
+                     <div class="block__title">Registration</div>
+                     <form action="#" class="block-form">
+                        <div class="block-form__filed block-form__filed_name">
+                           <input type="text" class="block-form__input" placeholder="Enter your name" name="name" required>
+                           <div class="block-form__icon block-form__icon_left uil uil-user"></div>
+                        </div>
+                        <div class="block-form__filed block-form__filed_email">
+                           <input type="email" class="block-form__input" placeholder="Enter your email" name="email" required>
+                           <div class="block-form__icon block-form__icon_left uil uil-envelope"></div>
+                        </div>
+                        <div class="block-form__filed block-form__filed_password">
+                           <input type="password" class="block-form__input" placeholder="Enter your pasword" name="password" required>
+                           <div class="block-form__icon block-form__icon_left uil uil-lock"></div>
+                        </div>
+                        <div class="block-form__filed block-form__filed_password block-form__filed_repeat-password">
+                           <input type="password" class="block-form__input" placeholder="Repeat pasword" name="repeat-password" required>
+                           <div class="block-form__icon block-form__icon_left uil uil-lock"></div>
+                           <button class="block-form__password-button">
+                              <div class="block-form__icon block-form__icon_center block-form__icon_open uil uil-eye"></div> 
+                              <div class="block-form__icon block-form__icon_center block-form__icon_close uil uil-eye-slash"></div> 
+                           </button>
+                        </div>
+                        <div class="block-form__dialog dialog-block-form">
+                           <div class="dialog-block-form__remember">
+                              <div class="dialog-block-form__toggle">
+                                 <input type="checkbox" class="dialog-block-form__checkbox">
+                              </div>
+                              <div class="dialog-block-form__text">Remember me</div>
+                           </div>
+                           <a href="#" class="dialog-block-form__forgote link">Forgote password?</a>
+                        </div>
+                        <input type="submit" class="block-form__submit" value="Login now">
+                     </form>
+                     <div class="block__footer footer-block">
+                        <div class="footer-block__text">Not a member?</div>
+                        <div class="footer-block__link link">Singin now</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </div>
+      <script src="./main.js"></script>
+   </body>
+</html>
